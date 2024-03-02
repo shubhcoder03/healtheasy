@@ -1,0 +1,79 @@
+
+
+/* antd override */
+.input{
+  width: 100%;
+  border-radius: 2px !important;
+  border:2px solid gray !important;
+  height: 40px !important;
+}
+.input:focus{
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid grey !important;
+}
+label{
+  font-size: 16px !important;
+  color:black !important; 
+}
+.ant-form-item{
+  margin :10px 0 !important;
+}
+/* Common Styling */
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.normal-text{
+  font-size: 1 rem;
+}
+.card{
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+}
+.primary-button{
+  background-color: cadetblue;
+  border-color: aliceblue;
+  height: 40px;
+  width: 100% !important;
+  font-size: 16px !important;
+}
+.primary-button:hover{
+  background-color: rgb(19, 128, 132) !important;
+  border-color: black !important;
+  color: whitesmoke !important;
+}
+
+.anchor{
+  font-size: 16px !important;
+  color:black !important;
+  text-decoration: none;
+}
+.anchor:hover{
+  text-decoration:underline !important;
+}
+
+.authentication .card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color : white !important;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius:10px;
+}
+/* authentication-pages */
+
+.authentication{
+  height : 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005555;
+}
+.authentication-form{
+  width:400px;
+  background-color: aliceblue;
+}
